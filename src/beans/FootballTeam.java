@@ -19,4 +19,8 @@ public class FootballTeam {
         return this.country.equals(((FootballTeam)o).country);
     }
 
+    @Override
+    public String toString() {
+        return "country='" + country + '\'';
+    }
 }
